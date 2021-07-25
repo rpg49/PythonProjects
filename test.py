@@ -14,7 +14,7 @@ def countBits(n):
         list1[i] = list1[i/2] + i%2
     return list1
 count = countBits(5)
-print(count)       
+print('Count = ',count)       
 
 
 
