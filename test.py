@@ -1,4 +1,5 @@
 #Code to test for loop with if condition together
+
 l1 = ['ghj','diff']
 f = 'Cancelnew'
 if [x for x in l1 if x not in f]:
@@ -6,7 +7,9 @@ if [x for x in l1 if x not in f]:
     print('No list element is in f')
     print('loop ended')
 
-#count bits 
+
+#count bits leetcode problem
+
 def countBits(n):
     list1 = []
     list1.append(0)
@@ -16,5 +19,5 @@ def countBits(n):
 count = countBits(5)
 print(count)       
 
-
+#leetcode problem
 
